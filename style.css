@@ -334,7 +334,7 @@ html {
 .game-field-zone-activate {
     display: table-cell;
     vertical-align: middle;
-    filter: hue-rotate(7deg) blur(5px) brightness(50);
+    filter: hue-rotate(7deg) blur(3px) brightness(5);
 }
 
 .engine-window-frame {

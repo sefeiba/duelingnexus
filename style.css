@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+
+body {
+    margin: 0;
+    overflow: hidden;
+    color: #f0f0f0;
+
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+    font-size: 14px;
+}
+
+html {
+    background: url(https://wallpapers.etherealgames.com/wp-content/uploads/sites/6/2018/01/Yu-Gi-Oh-Legacy-of-the-Duelist-Wallpaper-001.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#game-chat-textbox {
+    border-radius: 5px;
+    color: #c8d6e5;
+}
+
+#card-description-box {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid;
+    padding: 4px;
+}
+#card-name.engine-dark-box {
+    background-color: rgba(0, 0, 0, 0);
+}
+#card-name {
+    padding: 0px 0px 0px 0px;
+}
+#card-column {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100%;
+    padding: 16px 16px 8px 8px;
+    border-radius: 5px;
+}
+
+#game-field-extra-monster1.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/linkzone.svg) no-repeat center center;
+}
+
+#game-field-extra-monster2.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/linkzone.svg) no-repeat center center;
+}
+
+#game-field-opponent-monster5.game-field-zone,
+#game-field-opponent-monster4.game-field-zone,
+#game-field-opponent-monster3.game-field-zone,
+#game-field-opponent-monster2.game-field-zone,
+#game-field-opponent-monster1.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/mobsterzone.svg) no-repeat center center;
+}
+
+
+#game-field-player-monster5.game-field-zone,
+#game-field-player-monster4.game-field-zone,
+#game-field-player-monster3.game-field-zone,
+#game-field-player-monster2.game-field-zone,
+#game-field-player-monster1.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/mobsterzone.svg) no-repeat center center;
+}
+
+#game-field-player-spell6.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/spellzone.svg) no-repeat center center;
+}
+
+#game-field-opponent-graveyard.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/63d06398a3c94823a524c66ee33b70ce50187f52/gy.svg) no-repeat center center;
+}
+
+
+#game-field-opponent-spell6.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/spellzone.svg) no-repeat center center;
+}
+
+
+#game-field-player-graveyard.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/63d06398a3c94823a524c66ee33b70ce50187f52/gy.svg) no-repeat center center;
+}
+
+
+#game-field-opponent-deck.game-field-zone,
+#game-field-opponent-extra.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/bns.svg) no-repeat center center;
+}
+
+#game-field-player-deck.game-field-zone,
+#game-field-player-extra.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/bns.svg) no-repeat center center;
+}
+
+
+
+#game-field-player-spell5.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/pend1.svg) no-repeat center center;
+}
+
+
+#game-field-player-spell4.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/spelltrapback.svg) no-repeat center center;
+}
+
+#game-field-player-spell3.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/spelltrapback.svg) no-repeat center center;
+}
+
+#game-field-player-spell2.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/spelltrapback.svg) no-repeat center center;
+}
+
+#game-field-player-spell1.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/pend2.svg) no-repeat center center;
+}
+
+
+
+#game-field-opponent-spell5.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/pend1op.svg) no-repeat center center;
+}
+
+
+#game-field-opponent-spell4.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/spelltrapback.svg) no-repeat center center;
+}
+
+#game-field-opponent-spell3.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/spelltrapback.svg) no-repeat center center;
+}
+
+#game-field-opponent-spell2.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/spelltrapback.svg) no-repeat center center;
+}
+
+#game-field-opponent-spell1.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/pend2op.svg) no-repeat center center;
+}
+
+#game-field-opponent-spell1.game-field-zone:hover,
+#game-field-opponent-spell2.game-field-zone:hover,
+#game-field-opponent-spell3.game-field-zone:hover,
+#game-field-opponent-spell4.game-field-zone:hover,
+#game-field-opponent-spell5.game-field-zone:hover,
+#game-field-player-spell1.game-field-zone:hover,
+#game-field-player-spell2.game-field-zone:hover,
+#game-field-player-spell3.game-field-zone:hover,
+#game-field-player-spell4.game-field-zone:hover,
+#game-field-player-spell5.game-field-zone:hover,
+#game-field-player-graveyard.game-field-zone:hover,
+#game-field-opponent-graveyard.game-field-zone:hover,
+#game-field-player-spell6.game-field-zone:hover,
+#game-field-opponent-spell6.game-field-zone:hover,
+#game-field-player-banished.game-field-zone:hover,
+#game-field-opponent-banished.game-field-zone:hover {
+    /* box-shadow: none; */
+}
+
+#game-field-opponent-deck.game-field-zone:hover,
+#game-field-opponent-extra.game-field-zone:hover,
+#game-field-player-deck.game-field-zone:hover,
+#game-field-player-extra.game-field-zone:hover {
+    /* box-shadow: none; */
+}
+
+#game-field {
+    background: url() no-repeat center center fixed;
+    background-color: rgba(0, 0, 0, 0);
+}
+.game-field-zone {
+    position: relative;
+    border: 0px;
+    transition: 0.2s;
+    background-size: cover;
+}
+
+.game-field-zone:hover {
+    border-radius: 5px;
+    box-shadow: inset 0 0 25px #2e86de;
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+
+@keyframes game-field-zone-flash {
+    from {
+        /* filter: brightness(80%);
+        -webkit-filter: brightness(80%); */
+    }
+    to {
+        filter: brightness(60%);
+        -webkit-filter: brightness(60%);
+    }
+}
+
+.game-field-zone.game-field-zone-selectable {
+    cursor: pointer;
+    animation: 0.5s game-field-zone-flash infinite alternate linear;
+}
+
+
+@keyframes game-selectable-border {
+    from {
+        outline-color: black;
+        /* box-shadow: 0 0 0px 0px black; */
+        filter: brightness(80%);
+        opacity: 1.0;
+        -webkit-filter: brightness(80%);
+    }
+    to {
+        outline-color: black;
+        /* box-shadow: 0 0 2px 0px white; */
+        filter: brightness(120%);
+        opacity: 1.0;
+        -webkit-filter: brightness(120%);
+    }
+}
+
+.game-selectable-card {
+    outline: 0px solid black;
+    /* box-shadow: 0 0 2px 0px white; */
+}
+
+#game-field-player-monster5.game-field-zone-linked,
+#game-field-player-monster4.game-field-zone-linked,
+#game-field-player-monster3.game-field-zone-linked,
+#game-field-player-monster2.game-field-zone-linked,
+#game-field-player-monster1.game-field-zone-linked {
+    border-radius: 5px;
+    box-shadow: inset 0 0 50px #2e86de;
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/linkzone.svg) no-repeat center center;
+}
+
+
+#game-field-opponent-monster5.game-field-zone-linked,
+#game-field-opponent-monster4.game-field-zone-linked,
+#game-field-opponent-monster3.game-field-zone-linked,
+#game-field-opponent-monster2.game-field-zone-linked,
+#game-field-opponent-monster1.game-field-zone-linked {
+    border-radius: 5px;
+    box-shadow: inset 0 0 50px #2e86de;
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/linkzone.svg) no-repeat center center;
+}
+
+
+#game-dp-button {
+    border: 0px solid;
+    border-radius: 5px 5px 0px 0px;
+    transition: 0.2s;
+}
+
+#game-sp-button {
+    border: 0px solid;
+    transition: 0.2s;
+}
+
+#game-mp1-button {
+    border: 0px solid;
+    transition: 0.2s;
+}
+
+#game-bp-button {
+    border: 0px solid;
+    transition: 0.2s;
+}
+
+#game-mp2-button {
+    border: 0px solid;
+    transition: 0.2s;
+}
+
+#game-ep-button {
+    border: 0px solid;
+    border-radius: 0px 0px 5px 5px;
+    transition: 0.2s;
+}
+
+#game-action-menu.engine-button,
+#game-action-sp-summon.engine-button,
+#game-action-set-monster.engine-button,
+#game-action-attack.engine-button,
+#game-action-summon.engine-button,
+#game-action-attack.engine-button,
+#game-action-set-spell.engine-button,
+#game-action-repos.engine-button,
+#game-action-view.engine-button,
+#game-action-view-materials.engine-button,
+#game-surrender-button.engine-button,
+#game-action-view-materials.engine-button,
+#game-action-activate.engine-button {
+    border: 0px solid;
+    transition: 0.2s;
+}
+
+
+#game-cancel-button.engine-button,
+#game-force-chain-button.engine-button {
+
+
+    border: 0px solid;
+    min-height: 40px;
+    width: 70%;
+    border-radius: 5px;
+
+    transition: 0.2s;
+}
+
+.engine-button {
+    border: 0px solid;
+    transition: 0.2s;
+}
+
+#options-show-button {
+
+
+    border: 0px solid;
+    min-height: 40px;
+    border-radius: 5px;
+
+    transition: 0.2s;
+}
+
+#options-reset-button,
+#options-hide-button {
+    border: 0px solid;
+    border-radius: 0px;
+    transition: 0.2s;
+}
+
+#game-yesno-yes-button,
+#game-yesno-no-button {
+    border: 0px solid;
+    border-radius: 0px;
+    width: 40px;
+    transition: 0.2s;
+    margin: 1px;
+}
+
+.game-field-zone-activate {
+    display: table-cell;
+    vertical-align: middle;
+    filter: hue-rotate(65deg) blur(1px) brightness(150%);
+}
+
+.engine-window-frame {
+    border: 0;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+.engine-dark-box-border {
+    border: 0;
+}
+
+#game-deck-selection {
+    border: 0;
+}
+
+#game-column .engine-button {
+    margin-bottom: 0px;
+}
+
+.engine-button:active {
+    padding-left: 9px;
+    padding-right: 7px;
+}
+.engine-button-small {
+    min-height: 24px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.engine-button-small:active {
+    padding-left: 7px;
+    padding-right: 5px;
+}
+.engine-button-large {
+    min-height: 48px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.engine-button-large:active {
+    padding-left: 14px;
+    padding-right: 10px;
+}
+.engine-button-disabled {
+    opacity: 0.8;
+    color: #c0c0c0;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.engine-button:hover {
+    background-color: rgba(64, 64, 64, 0.8);
+}
+.engine-button-primary {
+    background-color: rgba(46, 134, 222, 0.8);
+}
+.engine-button-primary:hover {
+    background-color: rgba(84, 160, 255, 0.8);
+}
+.engine-button-success {
+    background-color: rgba(16, 172, 132, 0.8);
+}
+.engine-button-success:hover {
+    background-color: rgba(29, 209, 161, 0.8);
+}
+.engine-button-danger {
+    background-color: rgba(238, 82, 83, 0.8);
+}
+.engine-button-danger:hover {
+    background-color: rgba(255, 107, 107, 0.8);
+}
+
+
+.engine-text-box,
+.engine-button {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+#game-tooltip,
+#game-end-window,
+#game-waiting-window,
+#game-message-window,
+#options-window,
+#game-end-window {
+    border: 0px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#game-avatar-player-image,
+#game-avatar-opponent-image {
+    border: 0px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 30px #1e272e;
+}
+
+.game-life-bar-part {
+
+    height: 100%;
+    box-shadow: 0 0 5px 0px #ee5253;
+    background-color: #ee5253;
+}
+
+.game-life-bar {
+    margin-top: 8px;
+    background-color: #1e272e;
+    box-shadow: 0 0 5px 0px #1e272e;
+    width: 100%;
+    height: 10px;
+    border: 0px;
+}
+
+.game-timer-bar-part {
+    height: 100%;
+    box-shadow: 0 0 5px 0px #2e86de;
+    background-color: #2e86de;
+}
+
+#game-next-turn-text {
+    font-size: 5.0em;
+    font-weight: normal;
+    text-shadow: 2px 2px 10px black;
+    color: white;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: white;
+    white-space: nowrap;
+}
+
+#game-life-change-text {
+    font-size: 4.5em;
+    font-weight: normal;
+    white-space: nowrap;
+    text-shadow: 2px 2px 10px black;
+    -webkit-text-stroke-width: 0px;
+}
+
+.game-life-change-good {
+    color: #7bed9f;
+    text-shadow: 2px 2px 10px black;
+    -webkit-text-fill-color: #7bed9f;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: #7bed9f;
+}
+
+.game-life-change-bad {
+    color: #ff6b81;
+    text-shadow: 2px 2px 10px black;
+    -webkit-text-fill-color: #ff6b81;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: #ff6b81;
+}
+
+#game-rps-second,
+#game-rps-first {
+    border: 0px solid;
+    width: 100px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: 0.2s;
+}

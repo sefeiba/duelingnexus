@@ -14,13 +14,51 @@ body {
 }
 
 html {
-    background: url("https://raw.githubusercontent.com/sefeiba/duelingnexus/master/Yu-Gi-Oh-Legacy-of-the-Duelist-Wallpaper-005.jpg") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/sefeiba/duelingnexus/master/Yu-Gi-Oh-Legacy-of-the-Duelist-Wallpaper-004.jpg") no-repeat center center fixed;
     background-size: cover;
 
     /*
     background-position: 2.5% 50%;
     background-size: 120%;
     */
+}
+
+#ci-ext-misc-buttons {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#game-container {
+    margin: 24px 16px 0px 16px;
+    margin: 0px 0px 0px 0px;
+}
+
+#game-column {
+    margin: 24px 0px 0px 0px;
+}
+
+#game-chat-area {
+    left: 0px;
+    bottom: 0px;
+    width: 25%;
+}
+
+#game-chat-textbox {
+    border-radius: 5px;
+    color: #c8c8c8;
+    border: 0px solid #c8c8c8;
+    box-shadow: inset 0 0 3px 0px #c8c8c8;
+    text-shadow: 0 0 15px white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: -moz-available;
+    padding-left: 10px;
+}
+
+#game-chat-content {
+    background-color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .game-field-zone {
@@ -33,11 +71,6 @@ html {
     border-radius: 0.4vw;
     box-shadow: inset 0 0 1.4vw #2e86de;
     background-color: transparent;
-}
-
-#game-chat-textbox {
-    border-radius: 5px;
-    color: #c8d6e5;
 }
 
 #card-description-box {
@@ -53,9 +86,10 @@ html {
 }
 #card-column {
     background-color: rgba(0, 0, 0, 0.5);
-    min-height: 100%;
-    padding: 16px 16px 8px 8px;
-    border-radius: 5px;
+    min-height: 100vh;
+    padding: 16px 16px 16px 16px;
+    height: 100vh;
+    max-height: 100vh;
 }
 
 #game-field-extra-monster1.game-field-zone {
@@ -282,28 +316,32 @@ html {
 }
 
 #game-dp-button {
-    border: 0px solid;
     border-radius: 5px 5px 0px 0px;
+    border-bottom: 0px;
 }
 
 #game-sp-button {
-    border: 0px solid;
+    border-bottom: 0px;
+    border-top: 0px;
 }
 
 #game-mp1-button {
-    border: 0px solid;
+    border-bottom: 0px;
+    border-top: 0px;
 }
 
 #game-bp-button {
-    border: 0px solid;
+    border-bottom: 0px;
+    border-top: 0px;
 }
 
 #game-mp2-button {
-    border: 0px solid;
+    border-bottom: 0px;
+    border-top: 0px;
 }
 
 #game-ep-button {
-    border: 0px solid;
+    border-top: 0px;
     border-radius: 0px 0px 5px 5px;
 }
 
@@ -332,14 +370,23 @@ html {
     min-height: 40px;
     width: 7vw;
     border-radius: 5px;
+    
 }
 
 .engine-button {
-    border: 0px solid;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 0px solid #c8c8c8;
+    box-shadow: inset 0 0 2px 1px #c8c8c8;
+    text-shadow: 0 0 15px white;
+    transition: 0.2s;
+}
+
+.engine-button:hover {
+    box-shadow: inset 0 0 4px 1px #c8c8c8;
+    text-shadow: 0 0 30px white;
 }
 
 #options-show-button {
-
 
     border: 0px solid;
     min-height: 40px;
@@ -349,15 +396,19 @@ html {
 #options-reset-button,
 #options-hide-button {
     border: 0px solid;
-    border-radius: 0px;
+    border-radius: 3px;
 }
 
 #game-yesno-yes-button,
 #game-yesno-no-button {
     border: 0px solid;
-    border-radius: 0px;
+    border-radius: 3px;
     width: 40px;
     margin: 1px;
+}
+
+#game-end-button {
+    border-radius: 3px;
 }
 
 .game-field-zone-activate {
@@ -366,7 +417,8 @@ html {
     filter: hue-rotate(55deg) blur(1px) brightness(150%);
 }
 
-.engine-window-frame {
+.engine-window {
+    box-shadow: 0 0 2px 0px #c8c8c8;
     border: 0;
     border-radius: 5px;
     padding: 16px;
@@ -374,6 +426,7 @@ html {
 
 .engine-dark-box-border {
     border: 0;
+    box-shadow: 0 0 2px 0px #c8c8c8;
 }
 
 #game-deck-selection {
@@ -445,11 +498,11 @@ html {
 #game-end-window,
 #game-waiting-window,
 #game-message-window,
-#options-window,
-#game-end-window {
+#options-window {
     border: 0px solid #fff;
     border-radius: 5px;
     padding: 5px;
+    box-shadow: 0 0 2px 0px white;
 }
 
 #game-avatar-player-image,
@@ -518,4 +571,69 @@ html {
     width: 100px;
     border-radius: 5px;
     margin: 2px;
+}
+
+#options-area {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+/* Sock's extension styling */
+
+#game-chat-area button:nth-child(1) {
+    box-shadow: inset 0 0 0 0 transparent;
+    background-color: transparent;
+    text-shadow: 0 0 5px white;
+    margin-left: 14px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+#game-chat-area button:nth-child(3) {
+    box-shadow: inset 0 0 0 0 transparent;
+    background-color: transparent;
+    text-shadow: 0 0 5px white;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#game-chat-area button:nth-child(2) {
+    box-shadow: inset 0 0 0 0 transparent;
+    background-color: transparent;
+    text-shadow: 0 0 5px white;
+    margin-left: 10px;
+    margin-right: 14px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+#ci-ext-show-card-column {
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#ci-ext-show-chat-log {
+    margin-top: 10px;
+}
+
+#ci-ext-show-event-log {
+    margin-top: 10px;
+}
+
+#ci-ext-show-options {
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#ci-ext-event-log,
+#ci-ext-log,
+#ci-ext-options {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    padding-left: 10px;
 }

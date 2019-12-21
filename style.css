@@ -14,7 +14,7 @@ body {
 }
 
 html {
-    background: url("https://raw.githubusercontent.com/sefeiba/duelingnexus/master/Yu-Gi-Oh-Legacy-of-the-Duelist-Wallpaper-004.jpg") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/sefeiba/duelingnexus/master/Yu-Gi-Oh-Legacy-of-the-Duelist-Wallpaper-001.jpg") no-repeat center center fixed;
     background-size: cover;
 
     /*
@@ -584,7 +584,7 @@ html {
 #game-chat-area button:nth-child(1) {
     box-shadow: inset 0 0 0 0 transparent;
     background-color: transparent;
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 15px white;
     margin-left: 14px;
     margin-right: 0px;
     padding-left: 0px;
@@ -593,7 +593,7 @@ html {
 #game-chat-area button:nth-child(3) {
     box-shadow: inset 0 0 0 0 transparent;
     background-color: transparent;
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 15px white;
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 0px;
@@ -602,7 +602,7 @@ html {
 #game-chat-area button:nth-child(2) {
     box-shadow: inset 0 0 0 0 transparent;
     background-color: transparent;
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 15px white;
     margin-left: 10px;
     margin-right: 14px;
     padding-left: 0px;

@@ -636,5 +636,8 @@ html {
     background-color: rgba(0, 0, 0, 0.5);
     height: 100vh;
     padding-left: 10px;
-	min-height: 100vh;
+    min-height: 100vh;
+    border-bottom-style: solid;
+    border-bottom-width: 115px;
+    border-color: transparent;
 }

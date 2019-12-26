@@ -27,6 +27,14 @@ html {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+#game-selection-window {
+    width: 74%;
+    margin-left: 25.5%;
+    margin-right: 0px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
 #game-container {
     margin: 24px 16px 0px 16px;
     margin: 0px 0px 0px 0px;
@@ -46,13 +54,13 @@ html {
     border-radius: 5px;
     color: #c8c8c8;
     border: 0px solid #c8c8c8;
-    box-shadow: inset 0 0 3px 0px #c8c8c8;
+    box-shadow: inset 0 0 2px 0px #c8c8c8, 0 0 2px 0px #c8c8c8;
     text-shadow: 0 0 15px white;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    width: -moz-available;
     padding-left: 10px;
+    width: calc(25vw - 20px);
 }
 
 #game-chat-content {

@@ -1,0 +1,197 @@
+.game-field-zone {
+    position: relative;
+    border: 0px;
+    background-size: cover;
+}
+
+.game-field-zone:hover {
+    border-radius: 0.4vw;
+    box-shadow: inset 0 0 1.4vw #2e86de, 0 0 0.1vw #2e86de;
+    background-color: transparent;
+}
+
+#game-field-extra-monster1.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/linkzone.svg) no-repeat center center;
+}
+
+#game-field-extra-monster2.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/linkzone.svg) no-repeat center center;
+}
+
+#game-field-opponent-monster5.game-field-zone,
+#game-field-opponent-monster4.game-field-zone,
+#game-field-opponent-monster3.game-field-zone,
+#game-field-opponent-monster2.game-field-zone,
+#game-field-opponent-monster1.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/mobsterzone.svg) no-repeat center center;
+}
+
+#game-field-player-monster5.game-field-zone,
+#game-field-player-monster4.game-field-zone,
+#game-field-player-monster3.game-field-zone,
+#game-field-player-monster2.game-field-zone,
+#game-field-player-monster1.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/mobsterzone.svg) no-repeat center center;
+}
+
+#game-field-player-spell6.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/2bb242fe7d4fb67fb3f9d0df457430275d6955d2/spellzonenew.svg) no-repeat center center;
+}
+
+#game-field-opponent-graveyard.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/63d06398a3c94823a524c66ee33b70ce50187f52/gy.svg) no-repeat center center;
+}
+
+#game-field-opponent-spell6.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/2bb242fe7d4fb67fb3f9d0df457430275d6955d2/spellzonenew.svg) no-repeat center center;
+}
+
+#game-field-player-graveyard.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/63d06398a3c94823a524c66ee33b70ce50187f52/gy.svg) no-repeat center center;
+}
+
+#game-field-opponent-deck.game-field-zone,
+#game-field-opponent-extra.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/bns.svg) no-repeat center center;
+}
+
+#game-field-player-deck.game-field-zone,
+#game-field-player-extra.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/bns.svg) no-repeat center center;
+}
+
+#game-field-player-spell5.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/745e889042145560a13d741509c7df60555974ec/pend1new.svg) no-repeat center center;
+}
+
+#game-field-player-spell4.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/745e889042145560a13d741509c7df60555974ec/spelltrapbacknew.svg) no-repeat center center;
+}
+
+#game-field-player-spell3.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/745e889042145560a13d741509c7df60555974ec/spelltrapbacknew.svg) no-repeat center center;
+}
+
+#game-field-player-spell2.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/745e889042145560a13d741509c7df60555974ec/spelltrapbacknew.svg) no-repeat center center;
+}
+
+#game-field-player-spell1.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/745e889042145560a13d741509c7df60555974ec/pend2new.svg) no-repeat center center;
+}
+
+#game-field-opponent-spell5.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/745e889042145560a13d741509c7df60555974ec/pend1opnew.svg) no-repeat center center;
+}
+
+#game-field-opponent-spell4.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/745e889042145560a13d741509c7df60555974ec/spelltrapbacknew.svg) no-repeat center center;
+}
+
+#game-field-opponent-spell3.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/745e889042145560a13d741509c7df60555974ec/spelltrapbacknew.svg) no-repeat center center;
+}
+
+#game-field-opponent-spell2.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/745e889042145560a13d741509c7df60555974ec/spelltrapbacknew.svg) no-repeat center center;
+}
+
+#game-field-opponent-spell1.game-field-zone {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/745e889042145560a13d741509c7df60555974ec/pend2opnew.svg) no-repeat center center;
+}
+
+#game-field-opponent-banished.game-field-zone {
+    position: absolute;
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/b434deb28f7b96ef5d972b86e6152baec71a989c/bns666.svg) no-repeat center center;
+}
+
+#game-field-opponent-banished div.game-field-zone-content {
+    margin-top: 3%;
+}
+
+#game-field-player-banished.game-field-zone {
+    position: absolute;
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/b434deb28f7b96ef5d972b86e6152baec71a989c/bns666.svg) no-repeat center center;
+}
+
+#game-field-player-banished div.game-field-zone-content {
+    margin-top: 3%;
+}
+
+#game-field {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+@keyframes game-field-zone-flash {
+    from {
+        filter: brightness(80%);
+        -webkit-filter: brightness(80%);
+        box-shadow: inset 0 0 0 #2e86de, 0 0 0 #2e86de;
+        border-radius: 0.4vw;
+    }
+    to {
+        filter: brightness(120%);
+        -webkit-filter: brightness(120%);
+        box-shadow: inset 0 0 0.8vw #2e86de, 0 0 0.4vw #2e86de;
+        border-radius: 0.4vw;
+    }
+}
+
+.game-field-zone.game-field-zone-selectable {
+    cursor: pointer;
+    animation: 0.5s game-field-zone-flash infinite alternate linear;
+}
+
+#game-field-player-monster5.game-field-zone-linked,
+#game-field-player-monster4.game-field-zone-linked,
+#game-field-player-monster3.game-field-zone-linked,
+#game-field-player-monster2.game-field-zone-linked,
+#game-field-player-monster1.game-field-zone-linked,
+#game-field-opponent-monster5.game-field-zone-linked,
+#game-field-opponent-monster4.game-field-zone-linked,
+#game-field-opponent-monster3.game-field-zone-linked,
+#game-field-opponent-monster2.game-field-zone-linked,
+#game-field-opponent-monster1.game-field-zone-linked {
+    box-shadow: inset 0 0 1.4vw #2e86de, 0 0 0.1vw #2e86de;
+    border-radius: 0.4vw;
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/3e339f537272929619e4b066c7409b71ffa72dc2/linkzone.svg) no-repeat center center;
+}
+
+#game-field-player-spell6.game-field-zone-disabled,
+#game-field-player-spell5.game-field-zone-disabled,
+#game-field-player-spell4.game-field-zone-disabled,
+#game-field-player-spell3.game-field-zone-disabled,
+#game-field-player-spell2.game-field-zone-disabled,
+#game-field-player-spell1.game-field-zone-disabled,
+#game-field-opponent-spell6.game-field-zone-disabled,
+#game-field-opponent-spell5.game-field-zone-disabled,
+#game-field-opponent-spell4.game-field-zone-disabled,
+#game-field-opponent-spell3.game-field-zone-disabled,
+#game-field-opponent-spell2.game-field-zone-disabled,
+#game-field-opponent-spell1.game-field-zone-disabled {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/e2bd8ab6fbca64984c96e00bc26e6e59913fe7f6/STBdisabled.svg) no-repeat center center;
+}
+
+#game-field-player-monster5.game-field-zone-disabled,
+#game-field-player-monster4.game-field-zone-disabled,
+#game-field-player-monster3.game-field-zone-disabled,
+#game-field-player-monster2.game-field-zone-disabled,
+#game-field-player-monster1.game-field-zone-disabled,
+#game-field-opponent-monster5.game-field-zone-disabled,
+#game-field-opponent-monster4.game-field-zone-disabled,
+#game-field-opponent-monster3.game-field-zone-disabled,
+#game-field-opponent-monster2.game-field-zone-disabled,
+#game-field-opponent-monster1.game-field-zone-disabled {
+    background: url(https://rawcdn.githack.com/sefeiba/duelingnexus/e2bd8ab6fbca64984c96e00bc26e6e59913fe7f6/MZdisabled.svg) no-repeat center center;
+}
+
+.game-field-zone-disabled:hover {
+    box-shadow: inset 0 0 1.4vw #ee5253, 0 0 0.1vw #ee5253;
+    border-radius: 0.4vw;
+}
+
+.game-field-zone-activate {
+    display: table-cell;
+    vertical-align: middle;
+    filter: hue-rotate(55deg) blur(1px) brightness(150%);
+}

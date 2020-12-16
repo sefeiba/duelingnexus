@@ -11,7 +11,7 @@
 
 (function() {
 
-    let getSoundsAsset = (idSound) => "https://raw.githubusercontent.com/sefeiba/duelingnexus/master/snd/cherrySounds/" + idSound + ".ogg";
+    let getSoundsAsset = (idSound) => "https://raw.githubusercontent.com/sefeiba/duelingnexus/master/snd/berrySounds/" + idSound + ".ogg";
 
     let newOnGamePosChange = Game.onGamePosChange;
 

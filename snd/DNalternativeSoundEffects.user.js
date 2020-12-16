@@ -11,7 +11,8 @@
 // ==/UserScript==
 
 (function() {
-
+    // If you would like to have the original Activate/Normal summon/Special summon & LP damge and gain sound effects, replace the link on line 16 with the link bellow:
+    // "https://raw.githubusercontent.com/sefeiba/duelingnexus/master/snd/berrySounds/"
     let getSoundsAsset = (idSound) => "https://raw.githubusercontent.com/sefeiba/duelingnexus/master/snd/cherrySounds/" + idSound + ".ogg";
 
     let newOnGamePosChange = Game.onGamePosChange;

@@ -5,13 +5,13 @@
 // @author       sefeiba
 // @match        https://duelingnexus.com/game/*
 // @grant        none
-// @updateURL    https://github.com/sefeiba/duelingnexus/raw/master/snd/DNalternativeSoundEffects(cb).user.js
+// @updateURL    https://github.com/sefeiba/duelingnexus/raw/master/snd/DNalternativeSoundEffects(cherry2).user.js
 // @downloadURL  https://github.com/sefeiba/duelingnexus/raw/master/snd/DNalternativeSoundEffects*.user.js
 // ==/UserScript==
 
 (function() {
 
-    let getSoundsAsset = (idSound) => "https://raw.githubusercontent.com/sefeiba/duelingnexus/master/snd/cbSounds/" + idSound + ".ogg";
+    let getSoundsAsset = (idSound) => "https://raw.githubusercontent.com/sefeiba/duelingnexus/master/snd/cherry2Sounds/" + idSound + ".ogg";
 
     let newOnGamePosChange = Game.onGamePosChange;
 

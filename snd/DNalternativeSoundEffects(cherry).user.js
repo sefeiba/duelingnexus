@@ -5,8 +5,8 @@
 // @author       sefeiba
 // @match        https://duelingnexus.com/game/*
 // @grant        none
-// @updateURL    https://github.com/sefeiba/duelingnexus/raw/master/snd/DNalternativeSoundEffects.user.js
-// @downloadURL  https://github.com/sefeiba/duelingnexus/raw/master/snd/DNalternativeSoundEffects.user.js
+// @updateURL    https://github.com/sefeiba/duelingnexus/raw/master/snd/DNalternativeSoundEffects(cherry).user.js
+// @downloadURL  https://github.com/sefeiba/duelingnexus/raw/master/snd/DNalternativeSoundEffects*.user.js
 // ==/UserScript==
 
 (function() {

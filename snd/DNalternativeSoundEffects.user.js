@@ -2,7 +2,6 @@
 // @name         Dueling Nexus Alternative Sound Effects
 // @namespace    https://duelingnexus.com/game/*
 // @version      0.1
-// @description  try to take over the world!
 // @author       sefeiba
 // @match        https://duelingnexus.com/game/*
 // @grant        none
